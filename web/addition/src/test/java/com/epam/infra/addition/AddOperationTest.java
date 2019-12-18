@@ -20,4 +20,10 @@ public class AddOperationTest {
         assertNotEquals(result, operation.doOperation(5, 10));
     }
 
+    @org.junit.Test
+    public void doOperationFail() {
+        AddOperation operation = new AddOperation();
+        Integer result = 15;
+        assertNotEquals(result, operation.doOperation(5, 10));
+    }
 }
